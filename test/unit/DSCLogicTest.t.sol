@@ -4,14 +4,14 @@ pragma solidity ^0.8.19;
 
 import {Test} from "forge-std/Test.sol";
 import {DeployDSC} from "../../script/DeployDsc.s.sol";
-import {DecentralizedStableCoin} from "../../src/DecentralizedStableCoin.sol";
-import {DSCEngine} from "../../src/DSCEngine.sol";
+import {DefiStableCoin} from "../../src/DefiStableCoin.sol";
+import {DSCLogic} from "../../src/DSCLogic.sol";
 import {HelperConfig} from "../../script/HelperConfig.s.sol";
 
-contract DSCEngineTest is Test {
+contract DSCLogicTest is Test {
     DeployDSC deployer;
-    DecentralizedStableCoin dsc;
-    DSCEngine dsce;
+    DefiStableCoin dsc;
+    DSCLogic dsce;
     HelperConfig config;
     address ethUsdPriceFeed;
     address weth;
@@ -25,6 +25,7 @@ contract DSCEngineTest is Test {
     function testGetUsdValue() public {
         uint256 ethAmount = 15e18;
         uint256 expectedUsd = 30000e18;
+        // need to update expectedUSd price... currently hardcoded , need to use priceFeed to get correct price
         uint256 actualUsd = dsce.getUsdValue(weth, ethAmount);
         assertEq(expectedUsd, actualUsd);
     }
