@@ -1201,8 +1201,8 @@
       }
     },
     "script/DeployDSC.s.sol": {
-      "lastModificationDate": 1704591418949,
-      "contentHash": "b30d06a9e7aed64b036361ce1694503f",
+      "lastModificationDate": 1705637567424,
+      "contentHash": "69ce14f24341618bf54e193bd531afe2",
       "sourceName": "script/DeployDSC.s.sol",
       "solcConfig": {
         "settings": {
@@ -1268,8 +1268,8 @@
       }
     },
     "script/HelperConfig.s.sol": {
-      "lastModificationDate": 1704569504417,
-      "contentHash": "30aa17cfdec5d407a4db7b15249c4466",
+      "lastModificationDate": 1705637567424,
+      "contentHash": "73136ba18edeaf6f2727c6d0732f81bd",
       "sourceName": "script/HelperConfig.s.sol",
       "solcConfig": {
         "settings": {
@@ -1328,8 +1328,8 @@
       }
     },
     "src/DSCLogic.sol": {
-      "lastModificationDate": 1705192889388,
-      "contentHash": "ad84f069a61764ed90396182fa723658",
+      "lastModificationDate": 1706329685628,
+      "contentHash": "dad9f4e3288963d3d47956b78cb8dca7",
       "sourceName": "src/DSCLogic.sol",
       "solcConfig": {
         "settings": {
@@ -1427,8 +1427,8 @@
       }
     },
     "test/mocks/MockV3Aggregator.sol": {
-      "lastModificationDate": 1704569550826,
-      "contentHash": "ed4217a9f18226c7186e067a2d86fe29",
+      "lastModificationDate": 1705637567424,
+      "contentHash": "33f13f7a66eeefe33d1afd654621096b",
       "sourceName": "test/mocks/MockV3Aggregator.sol",
       "solcConfig": {
         "settings": {
@@ -1468,8 +1468,8 @@
       }
     },
     "test/unit/DSCLogicTest.t.sol": {
-      "lastModificationDate": 1705173233238,
-      "contentHash": "fb26bd245b039e785df4f9ccbcf56c42",
+      "lastModificationDate": 1705637567423,
+      "contentHash": "8227675e1e6c52fe22fdcf2300983adf",
       "sourceName": "test/unit/DSCLogicTest.t.sol",
       "solcConfig": {
         "settings": {

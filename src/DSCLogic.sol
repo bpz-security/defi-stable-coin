@@ -191,6 +191,7 @@ contract DSCLogic is ReentrancyGuard {
         uint256 startingUserHealthFactor = _healthFactor(user);
         if (startingUserHealthFactor >= MIN_HEALTH_FACTOR) {
             revert DSCLogic__HealthFactorOk();
+        }
 
         // Butn their DSC debt 
         // And Take their Collateral
