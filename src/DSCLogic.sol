@@ -252,7 +252,7 @@ contract DSCLogic is ReentrancyGuard {
     
     }
     function _getAccountInformation (address user) private view returns (uint256 totalDscMinted, uint256 collateralValueInUsd)
-    {
+    { 
         totalDscMinted = s_DSCMinted[user];
         collateralValueInUsd = getAccountCollateralValue(user);
 
